@@ -1,0 +1,15 @@
+# Ignore all contents of the data directory
+data/
+
+# Ignore all contents of the documents directory
+documents/
+
+papers/
+
+status_update/
+
+# Optional: Ignore common system/environment files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
