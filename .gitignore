@@ -6,8 +6,6 @@ documents/
 
 papers/
 
-status_update/
-
 # Optional: Ignore common system/environment files
 __pycache__/
 *.pyc
