@@ -6,6 +6,8 @@ documents/
 
 papers/
 
+.clinerules/
+
 status_update/
 
 # Optional: Ignore common system/environment files
