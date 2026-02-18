@@ -1,0 +1,22 @@
+name: astro
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  # Core Scientific Stack
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  # Jupyter & System
+  - jupyter
+  - ipykernel
+  - pip
+  # Pytorch (CPU Only - Strict Fix for DLL Error)
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
