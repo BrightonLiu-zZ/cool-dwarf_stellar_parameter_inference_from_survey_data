@@ -1,14 +1,14 @@
 {
-  "rmse_kelvin": 130.98,
-  "mae_kelvin": 95.19,
-  "median_ae_kelvin": 71.08,
-  "r2_score": 0.972813,
-  "rmse_log10": 0.009933,
-  "mae_log10": 0.00738,
-  "best_epoch": 53,
-  "total_epochs_run": 68,
-  "n_train": 709090,
-  "n_val": 151948,
-  "n_test": 151948,
-  "n_features": 37
+  "rmse_kelvin": 171.7,
+  "mae_kelvin": 127.38,
+  "median_ae_kelvin": 96.72,
+  "r2_score": 0.95344,
+  "rmse_log10": 0.01275,
+  "mae_log10": 0.009803,
+  "best_epoch": 55,
+  "total_epochs_run": 85,
+  "n_train": 697357,
+  "n_val": 149434,
+  "n_test": 149434,
+  "n_features": 18
 }
