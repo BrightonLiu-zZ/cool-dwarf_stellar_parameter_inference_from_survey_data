@@ -1,14 +1,18 @@
 {
-  "rmse_kelvin": 144.07,
-  "mae_kelvin": 108.9,
-  "median_ae_kelvin": 85.76,
-  "r2_score": 0.964924,
-  "rmse_log10": 0.01094,
-  "mae_log10": 0.008428,
-  "best_epoch": 28,
-  "total_epochs_run": 58,
-  "n_train": 568012,
+  "rmse_kelvin": 144.05,
+  "mae_kelvin": 109.47,
+  "median_ae_kelvin": 86.02,
+  "r2_score": 0.964933,
+  "rmse_log10": 0.01096,
+  "mae_log10": 0.008488,
+  "best_epoch": 36,
+  "total_epochs_run": 66,
+  "n_train_augmented": 1517852,
+  "n_train_original_trimmed": 567886,
+  "n_augmented_rows": 949966,
+  "n_bins_dropped": 5,
   "n_val": 121717,
   "n_test": 121718,
-  "n_features": 171
+  "n_features": 171,
+  "augmentation": "error-aware oversampling (150K bins, min_bin=100, empirical sigma)"
 }
