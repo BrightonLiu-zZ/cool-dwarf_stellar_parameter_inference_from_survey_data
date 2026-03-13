@@ -1,0 +1,28 @@
+{
+  "variant": "2layer",
+  "n_pca_components": 172,
+  "rmse_dex": 0.214544,
+  "mae_dex": 0.149847,
+  "median_ae_dex": 0.106079,
+  "r2_score": 0.443714,
+  "best_epoch": 24,
+  "total_epochs_run": 54,
+  "n_train_augmented": 1234450,
+  "n_train_original_trimmed": 633040,
+  "n_augmented_rows": 601410,
+  "n_val": 135664,
+  "n_test": 135665,
+  "n_features_original": 172,
+  "per_type_r2": {
+    "F": 0.13896,
+    "G": 0.33492,
+    "K": -0.118199,
+    "M": -1.010393
+  },
+  "per_type_rmse": {
+    "F": 0.154378,
+    "G": 0.243267,
+    "K": 0.134279,
+    "M": 0.123621
+  }
+}

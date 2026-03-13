@@ -1,0 +1,16 @@
+{
+  "rmse_dex": 0.20586,
+  "mae_dex": 0.141182,
+  "median_ae_dex": 0.095679,
+  "r2_score": 0.487838,
+  "best_epoch": 98,
+  "total_epochs_run": 100,
+  "n_train_augmented": 1234450,
+  "n_train_original_trimmed": 633040,
+  "n_augmented_rows": 601410,
+  "n_bins_dropped": 2,
+  "n_val": 135664,
+  "n_test": 135665,
+  "n_features": 171,
+  "augmentation": "error-aware oversampling (0.1 dex bins, min_bin=100, empirical sigma)"
+}

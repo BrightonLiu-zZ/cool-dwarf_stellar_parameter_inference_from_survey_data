@@ -1,0 +1,28 @@
+{
+  "variant": "residual",
+  "n_pca_components": 172,
+  "rmse_dex": 0.199448,
+  "mae_dex": 0.134403,
+  "median_ae_dex": 0.088708,
+  "r2_score": 0.519245,
+  "best_epoch": 47,
+  "total_epochs_run": 77,
+  "n_train_augmented": 1234450,
+  "n_train_original_trimmed": 633040,
+  "n_augmented_rows": 601410,
+  "n_val": 135664,
+  "n_test": 135665,
+  "n_features_original": 172,
+  "per_type_r2": {
+    "F": 0.233863,
+    "G": 0.426455,
+    "K": -0.508548,
+    "M": 0.371622
+  },
+  "per_type_rmse": {
+    "F": 0.145622,
+    "G": 0.225907,
+    "K": 0.155965,
+    "M": 0.069114
+  }
+}

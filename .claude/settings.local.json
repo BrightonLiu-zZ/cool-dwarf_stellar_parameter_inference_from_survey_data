@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/git_repo/cool-dwarf_stellar_parameter_inference_from_survey_data/data/Xmatch_result -name \"*.csv\" -type f 2>/dev/null | head -20)",
+      "Bash(cd \"C:/git_repo/cool-dwarf_stellar_parameter_inference_from_survey_data\" && python notebooks/logg_pipeline/_generate_notebooks.py)",
+      "Bash(python -c \":*)",
+      "Bash(python notebooks/logg_pipeline/_patch_notebooks.py)",
+      "Bash(python -c \"import sys; print\\(sys.stdin.buffer.read\\(\\).decode\\(''''utf-8'''', errors=''''replace''''\\)\\)\")",
+      "Bash(git add:*)"
+    ]
+  }
+}
