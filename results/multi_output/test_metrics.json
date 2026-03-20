@@ -1,0 +1,49 @@
+{
+  "model": "multi_output_ann",
+  "teff": {
+    "rmse_K": 132.031,
+    "mae_K": 95.889,
+    "r2_K": 0.96806,
+    "r2_log10": 0.973072
+  },
+  "logg": {
+    "rmse_dex": 0.206744,
+    "mae_dex": 0.140882,
+    "r2_score": 0.483428
+  },
+  "learned_weights": {
+    "teff_weight": 5200.816996,
+    "logg_weight": 26.759609
+  },
+  "training": {
+    "best_epoch": 64,
+    "total_epochs_run": 94,
+    "n_train_augmented": 2163707,
+    "n_val": 135664,
+    "n_test": 135665,
+    "n_features": 171,
+    "augmentation_bin_width_K": 150.0
+  },
+  "per_type": {
+    "F": {
+      "teff_r2": 0.865557,
+      "logg_r2": 0.189942,
+      "logg_rmse": 0.149738
+    },
+    "G": {
+      "teff_r2": 0.948978,
+      "logg_r2": 0.381572,
+      "logg_rmse": 0.23458
+    },
+    "K": {
+      "teff_r2": 0.931983,
+      "logg_r2": -0.610722,
+      "logg_rmse": 0.16116
+    },
+    "M": {
+      "teff_r2": 0.928552,
+      "logg_r2": 0.356382,
+      "logg_rmse": 0.069947
+    }
+  }
+}

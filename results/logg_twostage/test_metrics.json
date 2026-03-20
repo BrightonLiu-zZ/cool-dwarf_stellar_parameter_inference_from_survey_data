@@ -1,0 +1,47 @@
+{
+  "model": "logg_twostage_ann",
+  "logg": {
+    "rmse_dex": 0.117702,
+    "mae_dex": 0.085243,
+    "r2_score": 0.83257
+  },
+  "training": {
+    "best_epoch": 46,
+    "total_epochs_run": 146,
+    "n_train_augmented": 2163707,
+    "n_val": 135664,
+    "n_test": 135665,
+    "n_features": 191,
+    "stage1_model": "C:\\git_repo\\cool-dwarf_stellar_parameter_inference_from_survey_data\\models\\teff\\stellar_teff_ann_best.pth",
+    "stage1_variant": "baseline",
+    "augmentation_bin_width_K": 150.0
+  },
+  "per_type": {
+    "F": {
+      "logg_r2": 0.591729,
+      "logg_rmse": 0.106304
+    },
+    "G": {
+      "logg_r2": 0.829018,
+      "logg_rmse": 0.123345
+    },
+    "K": {
+      "logg_r2": -0.526602,
+      "logg_rmse": 0.156895
+    },
+    "M": {
+      "logg_r2": 0.368031,
+      "logg_rmse": 0.069311
+    }
+  },
+  "baselines": {
+    "residual_single_output": {
+      "r2": 0.51924,
+      "rmse": 0.1994
+    },
+    "multi_output_homosc": {
+      "r2": 0.48343,
+      "rmse": 0.20674
+    }
+  }
+}

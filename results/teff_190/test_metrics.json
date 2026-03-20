@@ -1,0 +1,46 @@
+{
+  "model": "teff_190_ann",
+  "teff": {
+    "rmse_K": 154.105,
+    "mae_K": 113.333,
+    "r2_K": 0.956487,
+    "r2_log10": 0.962589
+  },
+  "training": {
+    "best_epoch": 10,
+    "total_epochs_run": 40,
+    "n_train_augmented": 2163707,
+    "n_val": 135664,
+    "n_test": 135665,
+    "n_features": 190,
+    "n_color_features": 171,
+    "n_absmag_features": 19,
+    "augmentation_bin_width_K": 150.0
+  },
+  "per_type": {
+    "F": {
+      "teff_r2": 0.840492,
+      "teff_rmse_K": 174.438
+    },
+    "G": {
+      "teff_r2": 0.923678,
+      "teff_rmse_K": 146.805
+    },
+    "K": {
+      "teff_r2": 0.893438,
+      "teff_rmse_K": 157.937
+    },
+    "M": {
+      "teff_r2": 0.843319,
+      "teff_rmse_K": 73.201
+    }
+  },
+  "baseline_comparison": {
+    "teff_171feat_r2": 0.965,
+    "teff_171feat_rmse": 144.0,
+    "this_r2": 0.95649,
+    "this_rmse": 154.105,
+    "delta_r2": -0.00851,
+    "delta_rmse": 10.105
+  }
+}
